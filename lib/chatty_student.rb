@@ -8,4 +8,7 @@ class ChattyStudent < Student
     What, you don't want any spoilers? Okay well let me just tell you who died..."
   end
 
+  def raise_hand
+    super
+  end
 end
